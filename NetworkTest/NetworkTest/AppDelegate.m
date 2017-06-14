@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Unitl.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    //开启手机网络监测
+    //[self startMonitorNetwork];
+    //设置系统的返回按钮图片
+    /*
+    UIImage *img = [UIImage imageNamed:@"back"];
+    [[UINavigationBar appearance] setBackIndicatorImage:img];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:img];*/
+    [Unitl initTabBarView];
+
     return YES;
 }
 

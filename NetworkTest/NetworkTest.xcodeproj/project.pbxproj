@@ -15,6 +15,12 @@
 		1D9B1E2D1EF0CEA000244CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D9B1E2B1EF0CEA000244CA7 /* LaunchScreen.storyboard */; };
 		1D9B1E381EF0CEA000244CA7 /* NetworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B1E371EF0CEA000244CA7 /* NetworkTestTests.m */; };
 		1D9B1E431EF0CEA000244CA7 /* NetworkTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B1E421EF0CEA000244CA7 /* NetworkTestUITests.m */; };
+		1DD658A51EF0E59600F09F9F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658A41EF0E59600F09F9F /* BaseViewController.m */; };
+		1DD658A81EF0E5FB00F09F9F /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658A71EF0E5FB00F09F9F /* BaseNavigationController.m */; };
+		1DD658AB1EF0E63700F09F9F /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658AA1EF0E63700F09F9F /* BaseTabBarController.m */; };
+		1DD658AE1EF0E66300F09F9F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658AD1EF0E66300F09F9F /* MainViewController.m */; };
+		1DD658B11EF0E67300F09F9F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658B01EF0E67300F09F9F /* MeViewController.m */; };
+		1DD658B41EF0E68C00F09F9F /* Unitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658B31EF0E68C00F09F9F /* Unitl.m */; };
 		8F6B4E501531ED7A03111BC4 /* libPods-NetworkTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F002C93181065DB93F4A41 /* libPods-NetworkTest.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +59,18 @@
 		1D9B1E3E1EF0CEA000244CA7 /* NetworkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9B1E421EF0CEA000244CA7 /* NetworkTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTestUITests.m; sourceTree = "<group>"; };
 		1D9B1E441EF0CEA000244CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD658A31EF0E59600F09F9F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		1DD658A41EF0E59600F09F9F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		1DD658A61EF0E5FB00F09F9F /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		1DD658A71EF0E5FB00F09F9F /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		1DD658A91EF0E63700F09F9F /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		1DD658AA1EF0E63700F09F9F /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		1DD658AC1EF0E66300F09F9F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1DD658AD1EF0E66300F09F9F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1DD658AF1EF0E67300F09F9F /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		1DD658B01EF0E67300F09F9F /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		1DD658B21EF0E68C00F09F9F /* Unitl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unitl.h; sourceTree = "<group>"; };
+		1DD658B31EF0E68C00F09F9F /* Unitl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unitl.m; sourceTree = "<group>"; };
 		47F412A124BA4734AFEEAF5E /* Pods-NetworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkTest/Pods-NetworkTest.debug.xcconfig"; sourceTree = "<group>"; };
 		85A4C31AC24C0682EAB2DD2D /* Pods-NetworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkTest/Pods-NetworkTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +126,11 @@
 		1D9B1E1C1EF0CEA000244CA7 /* NetworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				1DD6589E1EF0DC7200F09F9F /* Base */,
+				1DD6589F1EF0DC7200F09F9F /* Model */,
+				1DD658A01EF0DC7200F09F9F /* Unitl */,
+				1DD658A11EF0DC7200F09F9F /* View */,
+				1DD658A21EF0DC7200F09F9F /* ViewController */,
 				1D9B1E201EF0CEA000244CA7 /* AppDelegate.h */,
 				1D9B1E211EF0CEA000244CA7 /* AppDelegate.m */,
 				1D9B1E231EF0CEA000244CA7 /* ViewController.h */,
@@ -145,6 +168,53 @@
 				1D9B1E441EF0CEA000244CA7 /* Info.plist */,
 			);
 			path = NetworkTestUITests;
+			sourceTree = "<group>";
+		};
+		1DD6589E1EF0DC7200F09F9F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1DD658A31EF0E59600F09F9F /* BaseViewController.h */,
+				1DD658A41EF0E59600F09F9F /* BaseViewController.m */,
+				1DD658A61EF0E5FB00F09F9F /* BaseNavigationController.h */,
+				1DD658A71EF0E5FB00F09F9F /* BaseNavigationController.m */,
+				1DD658A91EF0E63700F09F9F /* BaseTabBarController.h */,
+				1DD658AA1EF0E63700F09F9F /* BaseTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1DD6589F1EF0DC7200F09F9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DD658A01EF0DC7200F09F9F /* Unitl */ = {
+			isa = PBXGroup;
+			children = (
+				1DD658B21EF0E68C00F09F9F /* Unitl.h */,
+				1DD658B31EF0E68C00F09F9F /* Unitl.m */,
+			);
+			path = Unitl;
+			sourceTree = "<group>";
+		};
+		1DD658A11EF0DC7200F09F9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1DD658A21EF0DC7200F09F9F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1DD658AC1EF0E66300F09F9F /* MainViewController.h */,
+				1DD658AD1EF0E66300F09F9F /* MainViewController.m */,
+				1DD658AF1EF0E67300F09F9F /* MeViewController.h */,
+				1DD658B01EF0E67300F09F9F /* MeViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		480754121D5B2295D37CC94A /* Frameworks */ = {
@@ -351,9 +421,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD658B41EF0E68C00F09F9F /* Unitl.m in Sources */,
 				1D9B1E251EF0CEA000244CA7 /* ViewController.m in Sources */,
+				1DD658A51EF0E59600F09F9F /* BaseViewController.m in Sources */,
 				1D9B1E221EF0CEA000244CA7 /* AppDelegate.m in Sources */,
 				1D9B1E1F1EF0CEA000244CA7 /* main.m in Sources */,
+				1DD658AE1EF0E66300F09F9F /* MainViewController.m in Sources */,
+				1DD658AB1EF0E63700F09F9F /* BaseTabBarController.m in Sources */,
+				1DD658B11EF0E67300F09F9F /* MeViewController.m in Sources */,
+				1DD658A81EF0E5FB00F09F9F /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +669,7 @@
 				1D9B1E491EF0CEA000244CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9B1E4A1EF0CEA000244CA7 /* Build configuration list for PBXNativeTarget "NetworkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +678,7 @@
 				1D9B1E4C1EF0CEA000244CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D9B1E4D1EF0CEA000244CA7 /* Build configuration list for PBXNativeTarget "NetworkTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +687,7 @@
 				1D9B1E4F1EF0CEA000244CA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
