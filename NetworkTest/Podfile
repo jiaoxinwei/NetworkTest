@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target "NetworkTest" do
+
+platform :ios, '8.0'
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'JSONModel'
+
+
+end
