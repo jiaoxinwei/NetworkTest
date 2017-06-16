@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HZActionSheet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2A56A72F8294CE6A2A2513E891AC7736</key>
+		<key>2BB59D93E571DB48E64AE62FA1055B2F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C5D630E22842B5FAA405C4D6D6B88E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FDCBB2ECF7074070B945780CB881932</key>
+		<key>AC8D1A0626CF02BB0ACBC3D7CCC3618F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEC993F0EF27FE3E52490D761763C7FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

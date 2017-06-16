@@ -21,6 +21,10 @@
 		1DD658AE1EF0E66300F09F9F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658AD1EF0E66300F09F9F /* MainViewController.m */; };
 		1DD658B11EF0E67300F09F9F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658B01EF0E67300F09F9F /* MeViewController.m */; };
 		1DD658B41EF0E68C00F09F9F /* Unitl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658B31EF0E68C00F09F9F /* Unitl.m */; };
+		1DD658B81EF10D2500F09F9F /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658B71EF10D2500F09F9F /* NetWorkManager.m */; };
+		1DD658BB1EF10F0600F09F9F /* BaseNetworkServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658BA1EF10F0600F09F9F /* BaseNetworkServer.m */; };
+		1DD658BD1EF110F000F09F9F /* ConstantConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DD658BC1EF110F000F09F9F /* ConstantConfig.plist */; };
+		1DD658C01EF112E600F09F9F /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD658BF1EF112E600F09F9F /* AppConfig.m */; };
 		8F6B4E501531ED7A03111BC4 /* libPods-NetworkTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F002C93181065DB93F4A41 /* libPods-NetworkTest.a */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +75,13 @@
 		1DD658B01EF0E67300F09F9F /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		1DD658B21EF0E68C00F09F9F /* Unitl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unitl.h; sourceTree = "<group>"; };
 		1DD658B31EF0E68C00F09F9F /* Unitl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unitl.m; sourceTree = "<group>"; };
+		1DD658B61EF10D2500F09F9F /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
+		1DD658B71EF10D2500F09F9F /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		1DD658B91EF10F0600F09F9F /* BaseNetworkServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworkServer.h; sourceTree = "<group>"; };
+		1DD658BA1EF10F0600F09F9F /* BaseNetworkServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworkServer.m; sourceTree = "<group>"; };
+		1DD658BC1EF110F000F09F9F /* ConstantConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ConstantConfig.plist; sourceTree = "<group>"; };
+		1DD658BE1EF112E600F09F9F /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		1DD658BF1EF112E600F09F9F /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
 		47F412A124BA4734AFEEAF5E /* Pods-NetworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkTest/Pods-NetworkTest.debug.xcconfig"; sourceTree = "<group>"; };
 		85A4C31AC24C0682EAB2DD2D /* Pods-NetworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkTest/Pods-NetworkTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +137,7 @@
 		1D9B1E1C1EF0CEA000244CA7 /* NetworkTest */ = {
 			isa = PBXGroup;
 			children = (
+				1DD658B51EF10D0C00F09F9F /* Network */,
 				1DD6589E1EF0DC7200F09F9F /* Base */,
 				1DD6589F1EF0DC7200F09F9F /* Model */,
 				1DD658A01EF0DC7200F09F9F /* Unitl */,
@@ -148,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				1D9B1E1E1EF0CEA000244CA7 /* main.m */,
+				1DD658BC1EF110F000F09F9F /* ConstantConfig.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -215,6 +228,19 @@
 				1DD658B01EF0E67300F09F9F /* MeViewController.m */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1DD658B51EF10D0C00F09F9F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1DD658B61EF10D2500F09F9F /* NetWorkManager.h */,
+				1DD658B71EF10D2500F09F9F /* NetWorkManager.m */,
+				1DD658B91EF10F0600F09F9F /* BaseNetworkServer.h */,
+				1DD658BA1EF10F0600F09F9F /* BaseNetworkServer.m */,
+				1DD658BE1EF112E600F09F9F /* AppConfig.h */,
+				1DD658BF1EF112E600F09F9F /* AppConfig.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		480754121D5B2295D37CC94A /* Frameworks */ = {
@@ -348,6 +374,7 @@
 			files = (
 				1D9B1E2D1EF0CEA000244CA7 /* LaunchScreen.storyboard in Resources */,
 				1D9B1E2A1EF0CEA000244CA7 /* Assets.xcassets in Resources */,
+				1DD658BD1EF110F000F09F9F /* ConstantConfig.plist in Resources */,
 				1D9B1E281EF0CEA000244CA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +451,10 @@
 				1DD658B41EF0E68C00F09F9F /* Unitl.m in Sources */,
 				1D9B1E251EF0CEA000244CA7 /* ViewController.m in Sources */,
 				1DD658A51EF0E59600F09F9F /* BaseViewController.m in Sources */,
+				1DD658BB1EF10F0600F09F9F /* BaseNetworkServer.m in Sources */,
 				1D9B1E221EF0CEA000244CA7 /* AppDelegate.m in Sources */,
+				1DD658C01EF112E600F09F9F /* AppConfig.m in Sources */,
+				1DD658B81EF10D2500F09F9F /* NetWorkManager.m in Sources */,
 				1D9B1E1F1EF0CEA000244CA7 /* main.m in Sources */,
 				1DD658AE1EF0E66300F09F9F /* MainViewController.m in Sources */,
 				1DD658AB1EF0E63700F09F9F /* BaseTabBarController.m in Sources */,

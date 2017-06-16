@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HTTP_URL_TYPE</key>
+	<integer>2</integer>
+	<key>HTTP_URL_SET</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>content</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>开发</string>
+			<key>content</key>
+			<string>http://192.168.1.209:8484</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>测试</string>
+			<key>content</key>
+			<string>http://192.168.1.201:8484</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>预发布</string>
+			<key>content</key>
+			<string>http://120.26.203.72:8484</string>
+		</dict>
+	</array>
+</dict>
+</plist>
